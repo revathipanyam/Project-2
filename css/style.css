@@ -6,7 +6,7 @@ body{
   line-height: 1.5;
 }
 nav{
-  background-color:#f44336;
+  background-color:#45818e;
   width: 100%;
   overflow: hidden;
   margin: 0 auto;
@@ -26,7 +26,7 @@ nav ul li{
 nav ul li a{
   display: block;
   padding: 1.00em 0.9em;
-  color:#999999;
+  color:#000000;
   text-decoration: underline;
 }
 
@@ -51,7 +51,7 @@ h1, h2, h3{
     position: relative;
 }
 h1{
-	background-color: #f44336;
+	background-color:#a2c4c9;
 }
 p,ul,ol,li{
 	text-align: center;
