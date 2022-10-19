@@ -1,40 +1,48 @@
-body {
-    background-image: url("media/holidaybackground.jfif");
-    font-family: 'Rubik', sans-serif;
-    background-color: floralwhite;
-    font-size: 1em;
+body{
+  background-image: url("../media/holidaybackground.jfif");
+  font-family: Helvetica, sans-serif;
+  color: white;
+  font-size: 1em;
+  line-height: 1.5;
 }
 nav{
-    background-color: #777dff;
-    width: 100%;
-    overflow: hidden;
-    margin: 0 auto;
-    text-align: center;
-    border-radius: 0 0 1.5em 1.5em;
+  background-color:#6d5e5c;
+  width: 100%;
+  overflow: hidden;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 0 0 1.5em 1.5em;
 }
-header{
-    width: 100%;
+nav ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+  vertical-align: top;
 }
-header nav ul{
-    float: left;
-    display: block;
-    padding: .5cm;
-    text-decoration: none!important;
+nav ul li{
+  float: left;
 }
-header nav ul li{
-    float: left;
-    display: block;
-    padding: .5cm;
-    text-decoration: none!important;
+nav ul li a{
+  display: block;
+  padding: 1.00em 0.9em;
+  color: #e1e145;
+  text-decoration: underline;
 }
-header nav ul li a{
-    display: block;
-    padding: 1.00em 0.9em;
-    color: #0b0d08;
-    text-decoration: underline;
+
+img{
+    height: 300px;
+    width: 400px;
+	margin: 2.5em auto;
+	display: block;
+    box-sizing: border-box;
 }
-h1{
-	background-color: transparent;
+iframe{
+	height: 300px;
+    width: 400px;
+	margin: 2.5em auto;
+	display: block;
+    box-sizing: border-box;
 }
 h1, h2, h3{
     text-underline-offset: 0.09em;
@@ -42,58 +50,19 @@ h1, h2, h3{
     text-align: center;
     position: relative;
 }
-p,li{
+h1{
+	background-color: #156e94;
+}
+p,ul,ol,li{
 	text-align: center;
-	position: relative;      
-}
-ul,ol{   
-    display: table;
-    margin: 0 auto;
-}
-p ~ p{
-    padding-top: 5px;
-}
-p {
-    display: block;
-    margin-block-start: 1em;
-    font-weight: bold;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-.first_page{
-    background-image: url("media/resumebackground.jfif");
-    background-repeat: no-repeat;
-    background-size:cover;
-}
-.second_page{
-    background-image: url("media/backgroundfood.jfif");
-    background-repeat: no-repeat;
-    background-size:cover;
-}
-img{
-    height: 350px;
-    width: 500px;
-    margin: 3.0em auto;
-    display: block;
-    box-sizing: border-box;
-}
-iframe{
-    height: 300px;
-    width: 500px;
-    margin: 2.5em auto;
-    display: block;
-    box-sizing: border-box;
+	position: relative;
 }
 section{
-    padding: 10px 0;
+  box-sizing: border-box;
+  width: 20%;
+  margin: 3em auto;
 }
-section section{
-    padding: 0 10px;
-}
-main{
-    padding: 0 10px;
-}
-footer{
-    clear: none;
-    background-color: #f2f5f5;
+footer p a{
+  clear: none;
+  background-color: #f2f5f5;
 }
