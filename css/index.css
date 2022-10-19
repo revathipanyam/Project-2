@@ -1,159 +1,62 @@
 body {
-	padding: 0.5em;
-	margin: auto;
-	line-height: 1.75;
-	text-align: left;
-    background-image: url("media/resumebackground.jfif");
-	color: black;
-	font-family: 'Raleway', sans-serif;
-}	
-
-  #me{
-	padding: 0.5em;
-	margin: auto;
-	line-height: 1.75;
-	text-align: center;
-	color: black;
-  }
-
-  figure {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    align-content: center
-   
-  }
-  
-  figure:after {
-    display: block;
-    margin: 10px;
-    flex: auto;
-
+    background-image: url("../Images/resumebackground.jfif");
+    font-family: 'Rubik', sans-serif;
+    background-color: floralwhite;
+    font-size: 1em;
 }
-
-  h1 {
-   text-align: center; 
-   color: black;
-   padding: 1em;
-   margin:auto ;
-}
-
-  h2 {
-    text-align: left;
-    margin: auto;
-    color: purple;
-    padding: 1em;
-  }
-
-  h3 {
-    text-align: left;
-    margin: auto;
-    color: purple;
-    padding: 1em;
-  }
-
-  h4 {
-    text-align: left;
-    margin: auto;
-    color: purple;
-    padding: 1em;
-  }
-  
-  ul{
-  margin-left: 1em;
-  list-style-type: none;
-}
-
-  #hob{
-  margin-left: 1em;
-  list-style-type: circle; 
-  }
-  
-  nav{
-  overflow: hidden;
-  }
-
-  nav ul{
-  list-style-type: none;
-  margin: 5px;
-  }
-
-  nav ul li{
-  float: left;
-  }
-
-  nav ul li a{
-  display: block;
-  padding: 10px 30px;
-  color: black;
-  font-weight: bold;
-  font-size: 1.5em;
-  text-decoration: none;
-  }
-  
-  nav {
-    height: 35px;
-    padding-left: 18px;
-    border-radius: 15px;
-    display: block;
-    
-  }
-   nav {
+nav{
+    background-color: #756dff;
+    width: 100%;
+    overflow: hidden;
     margin: 0 auto;
-    padding: 15px;
-    list-style: none
-  }
-
-@media screen and (min-width: 360px) {
-  figure{
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    align-content: center
-  }
-
-  nav {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    flex-direction: column;
-    align-items: center;
-  }
+    text-align: center;
+    border-radius: 0 0 1.5em 1.5em;
 }
-
-@media screen and (min-width: 500px) {
-  figure {
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  img{
-	  width:400px;
-	  height:300px;
-  }
-  
-  #anime{
-	  width:100px;
-	  height:100px;
-	  position: absolute;
-	  top: 0px;
-	  right: 0px;
-  }
-  
-  #vid1 {
-    width: 400px;
-    height: 250px;
+header{
+    width: 100%;
 }
- #vid2 {
-    width: 400px;
-    height: 250px;
+header nav ul{
+    float: left;
+    display: block;
+    padding: .5cm;
+    text-decoration: none!important;
 }
- #vid3 {
-    width: 400px;
-    height: 250px;
- }
+header nav ul li{
+    float: left;
+    display: block;
+    padding: .5cm;
+    text-decoration: none!important;
 }
+header nav ul li a{
+    display: block;
+    padding: 1.00em 0.9em;
+    color: #0b0d08;
+    text-decoration: underline;
+}
+h1{
+	background-color: transparent;
+}
+h1, h2, h3{
+    text-underline-offset: 0.09em;
+    text-decoration: underline;
+    text-align: center;
+    position: relative;
+}
+p,li{
+	text-align: center;
+	position: relative;      
+}
+ul,ol{   
+    display: table;
+    margin: 0 auto;
+}
+p ~ p{
+    padding-top: 5px;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    font-weight: bold;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
