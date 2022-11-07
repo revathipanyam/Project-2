@@ -45,7 +45,6 @@ iframe{
 }
 h1, h2, h3{
     text-underline-offset: 0.09em;
-    text-decoration: underline;
     text-align: center;
     position: relative;
 }
