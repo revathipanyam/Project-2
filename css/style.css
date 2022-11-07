@@ -19,6 +19,7 @@ nav ul{
   margin: 0;
   display: inline-block;
   vertical-align: top;
+  text-decoration:none;
 }
 nav ul li{
   float: left;
