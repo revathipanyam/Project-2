@@ -20,15 +20,18 @@ nav ul{
   display: inline-block;
   vertical-align: top;
   text-decoration:none;
+  list-style-style: none;
 }
 nav ul li{
   float: left;
+  list-style-style: none;
 }
 nav ul li a{
   display: block;
   padding: 1.00em 0.9em;
   color:#000000;
   text-decoration:none;
+  list-style-style: none;
  }
 
 img{
