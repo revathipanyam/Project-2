@@ -28,6 +28,7 @@ nav ul li a{
   display: block;
   padding: 1.00em 0.9em;
   color:#000000;
+  text-decoration:none;
  }
 
 img{
@@ -48,6 +49,7 @@ h1, h2, h3{
     text-underline-offset: 0.09em;
     text-align: center;
     position: relative;
+    text-decoration:none;
 }
 h1{
 	background-color:#a2c4c9;
