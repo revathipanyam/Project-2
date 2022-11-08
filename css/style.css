@@ -64,18 +64,10 @@ p,ul,ol,li{
 }
 section{
   box-sizing: border-box;
-  width: 20%;
+  width: 80%;
   margin: 3em auto;
 }
 footer p a{
   clear: none;
   background-color: #f2f5f5;
-}
-#contentinfo p {
-   line-height: 20px;
-   margin: 5px;
-   padding-bottom: 5px;
-   text-align: justify;
-   width: 140px;
-   color: black;
 }
