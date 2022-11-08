@@ -48,7 +48,7 @@ iframe{
 	display: block;
     box-sizing: border-box;
 }
-h1, h2, h3{
+h1, h2, h3, h4{
     text-underline-offset: 0.09em;
     text-align: center;
     position: relative;
